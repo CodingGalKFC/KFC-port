@@ -1,0 +1,100 @@
+
+/* NAVIGATION BAR */
+
+
+#navigation-bar{
+  display: flex;
+}
+
+#navigation-bar a{
+  color: #d9d9d9;
+  text-decoration: none;
+  text-transform: uppercase;
+  margin-right: 2em;
+}
+
+
+#navigation-bar a:hover{
+  color: #8c8c8c;
+}
+
+#home-page{
+  background-color: #7486a4;
+  height: 100vh;
+}
+
+#portfolio{
+  background-color: #ede6de;
+}
+
+#contact-info{
+  background-color: #b77d7b;
+}
+
+/* NAVIGATION BAR ENDS */
+
+/* ABOUT PAGE */
+
+.iniitals{
+  text-align: center;
+}
+
+
+ @keyframes fadeIn {
+   0% {
+     opacity: 0;
+   }
+
+   100% {
+     opacity: 1;
+   }
+ }
+
+ #initial-k,
+ #initial-f,
+ #initial-c {
+   font-size: 15em;
+   color: #d9d9d9;
+   display: inline-block;
+   font-family: Gill Sans;
+ }
+
+#initial-k{
+  animation-duration: 5s;
+  animation-name: fadeIn;
+}
+
+#initial-f{
+  animation-duration: 10s;
+  animation-name: fadeIn;
+}
+
+#initial-c{
+  animation-duration: 15s;
+  animation-name: fadeIn;
+}
+
+
+#full-name{
+  font-size: 5em;
+  font-family: Snell Roundhand;
+  font-style: italic;
+  margin-top: -2%;
+  color: white;
+  text-align: center;
+
+}
+
+.about-me{
+  display: flex;
+  width: 80%;
+  margin: 0 auto;
+}
+
+#bio{
+  line-height: 1.6;
+}
+
+/* ABOUT PAGE ENDS */
+
+/* PORTFOLIO BEGINS */
