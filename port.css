@@ -18,23 +18,23 @@
   color: #8c8c8c;
 }
 
-#home-page{
+#top{
   /* background-color: #7486a4; */
   background-image: url("images/plantplant.jpg");
   height: 100vh;
   background-size: cover;
 }
 
-#portfolio{
+#middle{
   /* background-color: #ede6de; */
   background-image: url("images/plants2.jpg");
   height: 100vh;
   background-size: cover;
   margin-top: -2em;
-  
+
 }
 
-#contact-info{
+#bottom{
   /* background-color: #b77d7b; */
   background-image: url("images/plants1.jpg");
   height: 100vh;
