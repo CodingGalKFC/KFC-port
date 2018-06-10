@@ -10,7 +10,7 @@
   color: #d9d9d9;
   text-decoration: none;
   text-transform: uppercase;
-  margin-right: 2em;
+  margin-left: 2em;
 }
 
 
@@ -19,17 +19,31 @@
 }
 
 #home-page{
-  background-color: #7486a4;
+  /* background-color: #7486a4; */
+  background-image: url("images/plantplant.jpg");
   height: 100vh;
+  background-size: cover;
 }
 
 #portfolio{
-  background-color: #ede6de;
+  /* background-color: #ede6de; */
+  background-image: url("images/plants2.jpg");
+  height: 100vh;
+  background-size: cover;
+  margin-top: -2em;
+  
 }
 
 #contact-info{
-  background-color: #b77d7b;
+  /* background-color: #b77d7b; */
+  background-image: url("images/plants1.jpg");
+  height: 100vh;
+  background-size: cover;
+  margin-top: -2em;
+
 }
+
+
 
 /* NAVIGATION BAR ENDS */
 
@@ -54,7 +68,7 @@
  #initial-f,
  #initial-c {
    font-size: 15em;
-   color: #d9d9d9;
+   color: #a6a6a6;
    display: inline-block;
    font-family: Gill Sans;
  }
@@ -93,8 +107,44 @@
 
 #bio{
   line-height: 1.6;
+  border: gray solid 2em;
+  background: gray;
+  opacity: 0.5;
+  color: white;
+  width: 40em;
+  text-align: center;
+  margin-left: 10em;
+  margin-top: 2em;
+  font-size: 20px;
 }
 
 /* ABOUT PAGE ENDS */
 
 /* PORTFOLIO BEGINS */
+
+.port-header{
+  font-size: 10em;
+  color: #d9d9d9;
+  font-family: Gill Sans;
+  text-transform: uppercase;
+  text-align: center;
+}
+
+/* PORTFOLIO ENDS */
+
+
+/* CONTACT-INFO BEGINS */
+
+.contact-header{
+  font-size: 10em;
+  color: #bfbfbf;
+  font-family: Gill Sans;
+  text-transform: uppercase;
+  text-align: center;
+}
+
+.hire{
+  text-transform: uppercase;
+  text-align: center;
+  font-size: 3em;
+}
