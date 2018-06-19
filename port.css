@@ -7,7 +7,7 @@
 }
 
 #navigation-bar a{
-  color: #d9d9d9;
+  color:  #668cff;
   text-decoration: none;
   text-transform: uppercase;
   margin-left: 2em;
@@ -20,14 +20,14 @@
 
 #top{
   /* background-color: #7486a4; */
-  background-image: url("images/plantplant.jpg");
+  /* background-image: url("images/whitewood.jpg"); */
   height: 100vh;
   background-size: cover;
 }
 
 #middle{
   /* background-color: #ede6de; */
-  background-image: url("images/plants2.jpg");
+  /* background-image: url("images/plants2.jpg"); */
   height: 100vh;
   background-size: cover;
   margin-top: -2em;
@@ -36,7 +36,7 @@
 
 #bottom{
   /* background-color: #b77d7b; */
-  background-image: url("images/plants1.jpg");
+  /* background-image: url("images/plants1.jpg"); */
   height: 100vh;
   background-size: cover;
   margin-top: -2em;
@@ -67,10 +67,10 @@
  #initial-k,
  #initial-f,
  #initial-c {
-   font-size: 15em;
+   font-size: 18em;
    color: #a6a6a6;
    display: inline-block;
-   font-family: Gill Sans;
+   font-family: 'Medula One', cursive;
  }
 
 #initial-k{
@@ -91,10 +91,10 @@
 
 #full-name{
   font-size: 5em;
-  font-family: Snell Roundhand;
+  font-family: 'Droid Serif', serif;
   font-style: italic;
   margin-top: -2%;
-  color: white;
+  color: #e6ecff;
   text-align: center;
 
 }
@@ -107,15 +107,16 @@
 
 #bio{
   line-height: 1.6;
-  border: gray solid 2em;
-  background: gray;
-  opacity: 0.5;
+  background-color: rgb(26, 83, 255,0.5);
   color: white;
   width: 40em;
   text-align: center;
-  margin-left: 10em;
-  margin-top: 2em;
+  margin-left: 8em;
+  /* margin-top: 2em; */
   font-size: 20px;
+  font-weight: bold;
+  padding: 2em;
+  font-family: 'Lato', sans-serif;
 }
 
 /* ABOUT PAGE ENDS */
@@ -147,4 +148,35 @@
   text-transform: uppercase;
   text-align: center;
   font-size: 3em;
+}
+
+.twitter-icon{
+  width: 10em;
+  margin-right: 2em;
+  margin-top: 5em;
+}
+
+.linkedin-icon{
+  width: 10em;
+  margin-top: 5em;
+  margin-right: 2em;
+
+}
+
+.github-icon{
+  width: 10em;
+  margin-top: 5em;
+  margin-right: 2em;
+
+}
+
+.gmail-icon{
+  width: 10em;
+  margin-top: 5em;
+  margin-right: 2em;
+
+}
+
+.social-accounts{
+  text-align: center;
 }
